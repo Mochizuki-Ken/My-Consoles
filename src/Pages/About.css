@@ -1,0 +1,31 @@
+.About_Main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.About_Main_div .Title{
+    font-size:50px;
+    color: #FF5757;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: Smooth2 0.8s ;
+}
+.About_Main_div p{
+    font-size:40px;
+    color: #FF5757;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: Smooth2 0.8s ;
+    width: 95%;
+    
+}
+@media screen and (max-width: 600px){
+    .About_Main_div p{
+        font-size:24px;
+        
+    }
+}

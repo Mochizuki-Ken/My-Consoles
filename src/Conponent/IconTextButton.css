@@ -1,0 +1,30 @@
+.IconTextButton_Main_div{
+    transition: 0.2s;
+    width: auto;
+    padding: 0px 10px;
+    height: auto;
+    border-radius: 20px;
+    /* border:  4px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-size: large; */
+}
+
+.IconTextButton_Main_div .Icon{
+    transition: 0.5s;
+    font-size: 30px;
+    color: white;
+}
+.IconTextButton_Main_div label{
+    font-size: medium;
+    color: white;
+    font-weight: 600;
+}
+
+.IconTextButton_Main_div:hover .Icon{
+    transition: 0.5s;
+    color: rgb(237, 237, 237);
+    transform: rotateZ(-180deg);
+}

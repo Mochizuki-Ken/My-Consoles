@@ -1,0 +1,85 @@
+@keyframes Smooth2{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.Menu_Main_div{
+    animation: Smooth2 0.5s ;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0,-50%);
+    width: 15%;
+    height: 93%;
+    background-color: #FF5757;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: -5px 5px rgb(255, 255, 255);
+    
+}
+.Menu_Main_div .Top_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Menu_Main_div .Top_div .Icon{
+    font-size: xx-large;
+    color: white;
+}
+.Menu_Main_div .Top_div .Menu_label{
+    font-size: 45px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 4px solid white;
+}
+.Menu_Main_div .Content_div{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    width: 60%;
+}
+.Menu_Main_div .Content_div .Link{
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 0;
+    border-left: 4px solid white;
+    padding-left:10px ;
+    background-color: #FF5757;
+}
+.Menu_Main_div .Content_div .Link:hover{
+    transition: 0.2s;
+    padding-left: 20px;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1200px){
+    .NavBar_Main_Div .SpaceM img{
+        width: 250px;
+    }
+    .Menu_Main_div{
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .Menu_Main_div{
+        width: 95%;
+        box-shadow: none;
+        border: 3px solid white;
+    }
+}

@@ -1,0 +1,200 @@
+.LinkCard_Main_div{
+    animation: Out 0.5s ;
+    padding: 20px;
+    width:auto;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    margin: 0;
+}
+
+.LinkCard_Main_div .Name_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.LinkCard_Main_div .Name_div .Icon{
+    font-size: xx-large;
+    color: #FF5757;
+}
+
+.LinkCard_Main_div .Name_div label{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    color: #FF5757;
+}
+.LinkCard_Main_div .Url_label{
+    font-family:  sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    color: #FF5757;
+    max-width: 250px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-bottom: 30px;
+}
+
+.LinkCard_Main_div .Row_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.LinkCard_Main_div .Row_div button{
+    transition: 0.2s;
+    min-width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid #FF5757;
+    background-color: white;
+    font-size: medium;
+    font-family:  sans-serif;
+    font-weight: 600;
+    color: #FF5757;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinkCard_Main_div .Row_div button:hover{
+    transition: 0.2s;
+    border-radius: 30px;
+}
+.LinkCard_Main_div .Edit_Btn_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.LinkCard_Main_div .Edit_Btn_div .Icon{
+    font-size:X-large;
+    color: #FF5757;
+}
+.LinkCard_Main_div .MoreInfo_Background_div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 213, 213, 0.602);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinkCard_Main_div .MoreInfo_Background_div .MoreInfo_Main_div{
+    animation: Smooth 0.5s ;
+    width: 500px;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+.LinkCard_Main_div .MoreInfo_Background_div .MoreInfo_Main_div .Name_div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.LinkCard_Main_div .MoreInfo_Background_div .MoreInfo_Main_div .Name_div .Icon{
+    font-size: 50px;
+}
+.LinkCard_Main_div .MoreInfo_Background_div .MoreInfo_Main_div .Name_div label{
+    font-size: 40px;
+}
+.LinkCard_Main_div .MoreInfo_Background_div .MoreInfo_Main_Info_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.LinkCard_Main_div .MoreInfo_Background_div .MoreInfo_Main_Info_div label{
+    color: #FF5757;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.LinkCard_Main_div .MoreInfo_Background_div .MoreInfo_Main_Info_div input{
+    width: 250px;
+    color: rgb(19, 19, 19);
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 3px solid #FF5757;
+    padding-left: 10px;
+}
+.LinkCard_Main_div .MoreInfo_Background_div .MoreInfo_Main_Info_div textarea{
+    width: 350px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid #FF5757;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    color: rgb(19, 19, 19);
+}
+.LinkCard_Main_div .MoreInfo_Background_div .Row_div button{
+    width: 100px;
+    height: 40px;
+}
+.LinkCard_Main_div .MoreInfo_Background_div .Row_div .DeleteIcon{
+    transition: 0.2s;
+    font-size: xx-large;
+    color: #FF5757;
+    opacity: 1;
+}
+.LinkCard_Main_div .MoreInfo_Background_div .Row_div .DeleteIcon:hover{
+    transition: 0.2s;
+    opacity: 0.5;
+}
+@media screen and (max-width: 600px){
+    .LinkCard_Main_div{
+        padding: 10px;
+    }
+    .LinkCard_Main_div .Name_div label{
+        font-size: x-large;
+    }
+    .LinkCard_Main_div .Url_label{
+        font-family:  sans-serif;
+        font-weight: 600;
+        font-size: larger;
+        color: #FF5757;
+        max-width: 150px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-bottom: 30px;
+    }
+    .LinkCard_Main_div .Row_div{
+        gap: 5px;
+    }
+    .LinkCard_Main_div .Row_div button{
+        padding: 0;
+    }
+}

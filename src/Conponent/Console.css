@@ -1,0 +1,406 @@
+@keyframes Smooth{
+    from{margin-right:200% ;}
+    to{margin-right:0 ;}
+}
+.Console_Main_div{
+    width: 100%;
+    height: 100%;
+    /* background-color: #FF5757; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    animation: Smooth 0.8s ;
+    gap: 10px;
+}
+
+.Console_Main_div .Console_Select_div{
+    width: 95%;
+    height: 8%;
+    background-color: #FF5757;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Console_Main_div .Console_Select_div .Current_Console{
+    width: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Console_Main_div .Console_Select_div .Current_Console label{
+    font-size: 35px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Console_Main_div .Console_Select_div .Scroll_Content_div{
+    width: 82%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0 10px;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.Console_Main_div .Console_Select_div .Scroll_Content_div::-webkit-scrollbar{
+    height: 5px;
+}
+.Console_Main_div .Console_Select_div .Scroll_Content_div::-webkit-scrollbar-thumb{
+    height: 5px;
+    background-color: #FF5757;
+    border-radius: 30px;
+}
+.Console_Main_div .Console_Select_div .Scroll_Content_div label{
+    transition: 0.2s;
+    width: auto;
+    padding: 0px 10px;
+    min-width: 80px;
+    height: 80%;
+    background-color: #FF5757;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: x-large;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Console_Main_div .Console_Select_div .Scroll_Content_div label:hover{
+    transition: 0.2s;
+    border-radius: 30px;
+}
+.Console_Main_div .Console_Select_div .Create_div{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Console_Main_div .Console_Select_div .Create_div button{
+    transition: 0.2s;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: 4px solid white;
+    background-color: #FF5757;
+    font-size: xx-large;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.Console_Main_div .Console_Select_div .Create_div button:hover{
+    transition: 0.2s;
+    border-radius: 30px;
+}
+
+.Console_Main_div .Console_Board_div{
+    width: 95%;
+    height: 90%;
+    background-color: #FF5757;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Back_btn{
+    transition: 0.2s;
+    font-size: xx-large;
+    color: white;
+    opacity: 1;
+}
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Back_btn:hover{
+    transition: 0.2s;
+    opacity: 0.6;
+}
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Current_Group_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+}
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Current_Group_div .Icon{
+    font-size: xx-large;
+    color: white;
+}
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Current_Group_div label{
+    font-size: xx-large;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .Search_div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .Search_div input{
+    width: 85%;
+    height: 60%;
+    border-radius: 20px;
+    border: 0;
+    font-size: x-large;
+    font-weight: 600;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .Add_div{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .Add_div button{
+    transition: 0.2s;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FF5757;
+    border: 4px solid white;
+    font-size: x-large;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Console_Main_div .Console_Board_div .Console_Search_Edit_div .Add_div button:hover{
+    transition: 0.2s;
+    border-radius: 30px;
+}
+
+.Console_Main_div .Console_Board_div .Display_Board_div{
+    width: 90%;
+    height: 85%;
+    padding-top: 10px;
+    display: inline-flex;
+    flex-wrap:wrap;
+    overflow-y: scroll;
+    gap: 10px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-basis: content;
+    
+}
+
+
+.Console_Main_div .Console_Board_div .Display_Board_div::-webkit-scrollbar{
+    width: 3px;
+}
+.Console_Main_div .Console_Board_div .Display_Board_div::-webkit-scrollbar-thumb{
+    width: 3px;
+    background-color: #fecccc;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1200px){
+    .Console_Main_div .Console_Select_div .Current_Console{
+        width: 12%;
+    }
+    .Console_Main_div .Console_Select_div .Current_Console label{
+        font-size: x-large;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: 70px;
+    }
+    .Console_Main_div .Console_Select_div .Scroll_Content_div{
+        width: 76%;
+    }
+    .Console_Main_div .Console_Select_div .Create_div button{
+        width: 12%;
+    
+    }
+    .Console_Main_div .Console_Select_div .Create_div button{
+        font-size: x-large;
+        width: auto;
+        padding: 0px 10px;
+        height: auto;
+    
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 {
+        width: 20%;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .Search_div{
+        width: 40%;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .Add_div {
+        width: 40%;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Current_Group_div label{
+        font-size: x-large;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: 110px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .Console_Main_div .Console_Select_div .Current_Console{
+        width: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .Console_Main_div .Console_Select_div .Current_Console label{
+        font-size: large;
+        color: white;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .Console_Main_div .Console_Select_div .Scroll_Content_div{
+        width: 60%;
+    }
+    .Console_Main_div .Console_Select_div .Scroll_Content_div label{
+        padding: 0px 5px;
+        min-width: 50px;
+        font-size: large;
+    }
+    .Console_Main_div .Console_Select_div .Create_div{
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Console_Main_div .Console_Select_div .Create_div button{
+        width: 60px;
+        height: 35px;
+        border-radius: 10px;
+        border: 3px solid white;
+        font-size: medium;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Console_Main_div .Console_Board_div{
+        width: 98%;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1{
+        width: 35%;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Back_btn{
+        transition: 0.2s;
+        font-size: xx-large;
+        color: white;
+        opacity: 1;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Current_Group_div{
+        gap: 5px;
+        width: 80%;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Current_Group_div .Icon{
+        font-size: xx-large;
+        color: white;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .div1 .Current_Group_div label{
+        font-size: x-large;
+        color: white;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .Search_div{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    } 
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .Search_div input{
+        width: 50%;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .Add_div{
+        width: 45%;
+        gap: 5px;
+    }
+    .Console_Main_div .Console_Board_div .Console_Search_Edit_div .Add_div button{
+        width: 50px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: #FF5757;
+        border: 3px solid white;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Console_Main_div .Console_Board_div .Display_Board_div{
+        width: 96%;
+        height: 90%;
+        padding-top: 10px;
+        display: inline-flex;
+        flex-wrap:wrap;
+        overflow-y: scroll;
+        gap: 10px;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-basis: content;
+        
+    }
+}

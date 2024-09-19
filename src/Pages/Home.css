@@ -1,0 +1,45 @@
+.Home_Main_div{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.Home_Main_div .Mode_Select_div{
+    width: 200px;
+    height: 40px;
+    border: 3px solid #FF5858;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Home_Main_div .Mode_Select_div div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FF5858;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    .Home_Main_div .Mode_Select_div{
+        width: 150px;
+        height: 30px;
+    }
+    .Home_Main_div .Mode_Select_div div{
+        color: #FF5858;
+        font-size: large;
+        font-weight: 600;
+        border-radius: 20px;
+    }
+}

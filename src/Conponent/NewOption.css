@@ -1,0 +1,149 @@
+@keyframes Out{
+    from{opacity:0 ;}
+    to{opacity:1 ;}
+}
+.New_Option_Background_div{
+    animation: Out 0.5s ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(105, 105, 105, 0.655);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.New_Option_Background_div .New_Option_div{
+    animation: Smooth 0.5s ;
+    width: 500px;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #FF5757;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+.New_Option_Background_div .New_Option_div .Add_Path{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+.New_Option_Background_div .New_Option_div .Row_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.New_Option_Background_div .New_Option_div .Row_div .IconTextButton_Main_div{
+    border: 2px solid white;
+    width: 120px;
+    height: 100px;
+}
+.New_Option_Background_div .New_Option_div .Row_div .IconTextButton_Main_div:hover{
+    background-color: #fb8181bf;
+}
+.New_Option_Background_div .New_Option_div .Row_div .IconTextButton_Main_div .Icon{
+    font-size: 50px;
+}
+
+.New_Option_Background_div .New_Option_div .Row_div .IconTextButton_Main_div label{
+    font-size: large;
+}
+
+.New_Option_Background_div .New_Option_div .New_Link_Info_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.New_Option_Background_div .New_Option_div .New_Link_Info_div label{
+    color: white;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.New_Option_Background_div .New_Option_div .New_Link_Info_div input{
+    width: 250px;
+    color: rgb(19, 19, 19);
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 10px;
+}
+.New_Option_Background_div .New_Option_div .New_Link_Info_div textarea{
+    width: 350px;
+    height: 150px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    color: rgb(19, 19, 19);
+}
+.New_Option_Background_div .New_Option_div .DoneIcon{
+    font-size: 80px;
+    color: rgb(53, 218, 116);
+    animation: Out 0.5s ;
+}
+.New_Option_Background_div .New_Option_div .Btn_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+@media screen and (max-width: 600px){
+    .New_Option_Background_div .New_Option_div{
+        width: 350px;
+        gap: 10px;
+    }
+    .New_Option_Background_div .New_Option_div .Row_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .New_Option_Background_div .New_Option_div .Row_div .IconTextButton_Main_div{
+        border: 2px solid white;
+        width: 100px;
+        height: 80px;
+    }
+    .New_Option_Background_div .New_Option_div .Row_div .IconTextButton_Main_div:hover{
+        background-color: #fb8181bf;
+    }
+    .New_Option_Background_div .New_Option_div .Row_div .IconTextButton_Main_div .Icon{
+        font-size: 30px;
+    }
+    
+    .New_Option_Background_div .New_Option_div .Row_div .IconTextButton_Main_div label{
+        font-size: medium;
+    }
+
+    .New_Option_Background_div .New_Option_div .New_Link_Info_div label{
+        font-size: x-large;
+    }
+    .New_Option_Background_div .New_Option_div .New_Link_Info_div input{
+        width: 200px;
+    }
+    .New_Option_Background_div .New_Option_div .New_Link_Info_div textarea{
+        width: 250px;
+    }
+}

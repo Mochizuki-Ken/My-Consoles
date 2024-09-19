@@ -1,0 +1,48 @@
+.NavBar_Main_Div{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.NavBar_Main_Div .Space{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.NavBar_Main_Div .SpaceM{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.NavBar_Main_Div .SpaceM img{
+    width: 300px;
+}
+.NavBar_Main_Div .MenuIcon{
+    transition: 0.2s;
+    font-size: 40px;
+    color: #FF5757;
+}
+.NavBar_Main_Div .MenuIcon:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+    transform: rotateZ(-90deg);
+}
+
+@media screen and (max-width: 1200px){
+    .NavBar_Main_Div .SpaceM img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .NavBar_Main_Div .SpaceM img{
+        max-width: 200px;
+    }
+}
